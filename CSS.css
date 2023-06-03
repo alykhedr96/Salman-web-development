@@ -1,0 +1,39 @@
+/*
+#navbar #navbarimg {
+    float: left;
+}
+#navbar li {
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+*/
+
+
+
+p {font-family:"roboto"}
+#navbar {
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+}
+#navbarimg {
+    background-color: aqua;
+    justify-self: left;
+    width: 50%;
+}
+#navbarli {
+    display: flex;
+    background-color: grey;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
