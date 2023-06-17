@@ -1,33 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Page Title</title>
-    <link rel="Stylesheet" href="C:\Users\Aly Khedr\OneDrive\Desktop\Salman web development\Flex.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="Flex.css"> -->
+
+    <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="home"><p>Home</p></div>
-        <div class="aboutus"><p>About us</p></div>
-        <div class="ourproducts"><p>Our Products</p></div>
-        <div class="contactus"><p>Contact us</p></div>
-    </div>
-    <div >
-        <div class="item"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, dolorem!</p></div>
-        <div class="item"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id doloremque, corporis autem ullam reprehenderit fugit accusantium totam. Fugiat praesentium quisquam ipsa temporibus eos reiciendis dicta. Excepturi illum beatae error rem?</p></div>
-        <div class="item"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ad quo animi voluptatem, delectus quis quae corrupti aspernatur similique corporis, pariatur repudiandae sapiente. Amet, optio sequi. Ab earum dolorum corrupti dolor, temporibus atque. Aut quas at, aperiam rerum culpa fugit ad alias sequi. Tenetur iure, ad voluptas rem pariatur in.</p></div>
-        <div class="item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium, recusandae impedit, velit a sed at tempore possimus saepe quis repellat. Odio voluptatibus, velit perspiciatis nemo, facere fugit corrupti laborum mollitia reiciendis adipisci nisi. Cumque voluptatum alias non quos maiores cum voluptatem voluptate deleniti ab impedit in accusantium vitae quas debitis deserunt fugiat, asperiores aliquid tempore omnis est aperiam dolores rem ullam. Ad in esse voluptate tenetur voluptatum explicabo asperiores laboriosam omnis. Officia fugiat laborum quae sunt expedita quisquam distinctio. Earum nobis vel culpa minima fuga officiis blanditiis tenetur ducimus error? Adipisci ex tempora fugit sapiente doloremque facere labore quidem.</p></div>
-    </div>
     <div class="container">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-        <div class="box">Box 4</div>
-        <div class="box">Box 5</div>
-        <div class="box">Box 6</div>
-        <div class="box">Box 7</div>
-        <div class="box">Box 8</div>
-        <div class="box">Box 9</div>
-        <div class="box">Box 10</div>
+        <div class="row">
+            <div class="header col-12 col-md-1">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="side col-12 col-md-3">side</div>
+            <div class="adver col-12 col-md-4">adver</div>
+            <div class="content col-12 col-md-1">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="footer col-12 col-md">
+                
+            </div>
+        </div>
+        <!-- <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div> -->
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
